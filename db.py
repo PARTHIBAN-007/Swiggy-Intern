@@ -3,7 +3,6 @@ import sqlite3
 conn = sqlite3.connect("feedback.db")
 cursor = conn.cursor()
 
-# Sample feedback data
 feedback_data = [
     # Delivery Experience
     ("The delivery was very late, and the food was cold.", "Late delivery with cold food.", 3, "Delivery Experience"),
