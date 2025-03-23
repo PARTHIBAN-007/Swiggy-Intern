@@ -4,7 +4,6 @@ conn = sqlite3.connect("feedback.db")
 cursor = conn.cursor()
 
 feedback_data = [
-    # Delivery Experience
     ("The delivery was very late, and the food was cold.", "Late delivery with cold food.", 3, "Delivery Experience"),
     ("Fast delivery, but the packaging was damaged.", "Quick delivery but bad packaging.", 6, "Delivery Experience"),
     ("The delivery person was very polite and professional.", "Polite and professional delivery.", 9, "Delivery Experience"),
